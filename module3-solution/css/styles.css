@@ -1,0 +1,117 @@
+body
+{
+     background-color: #fdffba;
+}
+
+#header-nav
+{
+	border:0;
+    background-color: #b60003;
+	border-radius: 0;
+}
+
+.navbar-brand
+{
+	padding-top: 13px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1
+{
+	 color: #ffffff;
+     font-size: 1.9em;
+     text-shadow: 1px 1px 1px #222;
+     margin-bottom: 0;
+     text-align: left;
+     margin-top: 0;
+     font-weight: bold;
+     line-height: .75;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3em;
+}
+#nav-list a:hover {
+  background: #fdffba;
+  color: #b60003;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background-color: #fdffba;
+}
+
+
+#menu-heading
+{
+	color: #b60003;
+	font-size: 2.5em;
+	margin-bottom: 35px;
+}
+
+
+#Menupage-tile {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: #ffc967;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.chicken-tile .main-heading
+{
+    color: #b60003;
+    margin-bottom: 20px;
+}
+
+
+.chicken-tile p
+{
+	color: #b60003;
+	font-size: 20px;
+}
+
+
+
+
+
+@media (max-width: 767px)
+{
+  
+  #Menupage-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+@media (max-width: 479px)
+{
+  
+  #Menupage-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+
